@@ -1,0 +1,36 @@
+<div class="primary-menu">
+  <ul>
+      <li data-toggle="tooltip" data-placement="right" title="Dashboards"><a href="#"><img
+                  src="assets/images/menu-icon-1.png" alt=""></a></li>
+      <li data-toggle="tooltip" data-placement="right" title="Masters"><a href="#"><img
+                  src="assets/images/menu-icon-2.png" alt=""></a></li>
+      <li data-toggle="tooltip" data-placement="right" title="Reports"><a [routerLink]="'/report-creation'"><img
+                  src="assets/images/menu-icon-3.png" alt=""></a></li>
+      <li data-toggle="tooltip" data-placement="right" title="Organization"><a href="#"><img
+                  src="assets/images/menu-icon-4.png" alt=""></a></li>
+      <li data-toggle="tooltip" data-placement="right" title="Full & Final"><a [routerLink]="'/report-view'"><img
+                  src="assets/images/menu-icon-5.png" alt=""></a></li>
+  </ul>
+
+  <ul>
+      <li data-toggle="tooltip" data-placement="right" title="Settings"><a href="#"><img
+                  src="assets/images/menu-icon-6.png" alt=""></a></li>
+      <li data-toggle="tooltip" data-placement="right" title=""><a href="#"><img src="assets/images/menu-icon-7.png"
+                  alt=""></a></li>
+  </ul>
+</div>
+
+<div class="container-fluid top-bar-wrapper">
+  <div class="top-bar">
+      <div class="row justify-content-between">
+          <div class="col-lg-4">
+              <a href="#"><img src="assets/images/thinkpeople-logo.png" alt="" width="120"></a>
+          </div>
+          <div class="col-lg-4 text-right">
+              <img src="assets/images/lc-logo.png" alt="">
+          </div>
+      </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,341 @@
+<div class="secondary-menu" >
+  <div class="page-title">
+      Reports
+  </div>
+  <ul>
+      <li><a href="#" class="active">CREATE REPORT</a></li>
+      <li><a href="#">ADMINISTRATIVE HR REPORT
+          <br>
+          <span class="report-number">
+        #326
+      </span>
+      </a></li>
+      <li><a href="#">CREATE REPORT
+          <span class="report-number">#326</span></a></li>
+      <li><a href="#">ADMINISTRATIVE
+          <span class="report-number">#326</span></a></li>
+      <li><a href="#">HR REPORT
+          <span class="report-number">#326</span></a></li>
+      <li><a href="#">WORKERS’ COMP AUDITS
+          <span class="report-number">#326</span></a></li>
+      <li><a href="#">PAYROLL REPORTS
+          <span class="report-number">#326</span></a></li>
+      <li><a href="#">EEO REPORTS
+          <span class="report-number">#326</span></a></li>
+      <li><a href="#">TERMINATION REPORTS
+          <span class="report-number">#326</span></a></li>
+      <li><a href="#">NEW HIRES
+          <span class="report-number">#326</span></a></li>
+      <li><a href="#">EMPLOYEE STATUS CHANGES
+          <span class="report-number">#326</span></a></li>
+      <li><a href="#">TURNOVER ANALYSES
+          <span class="report-number">#326</span></a></li>
+      <li><a href="#">BUDGETARY REPORTS
+          <span class="report-number">#326</span></a></li>
+      <li><a href="#">PERFORMANCE REPORTS
+          <span class="report-number">#326</span></a></li>
+      <li><a href="#">BUSINESS INTELLIGENCE
+          <span class="report-number">#326</span></a></li>
+      <li><a href="#">WORKFORCE DATA
+          <span class="report-number">#326</span></a></li>
+      <li><a href="#">AND TRENDS
+          <span class="report-number">#326</span></a></li>
+      <li><a href="#">GEOGRAPHIC STAFF
+          <span class="report-number">#326</span></a></li>
+      <li><a href="#">DISTRIBUTION
+          <span class="report-number">#326</span></a></li>
+      <li><a href="#">PERFORMANCE
+          <span class="report-number">#326</span></a></li>
+      <li><a href="#">PARAMETER RESULTS
+          <span class="report-number">#326</span></a></li>
+      <li><a href="#">DISCIPLINARY INFORMATION
+          <span class="report-number">#326</span></a></li>
+      <li><a href="#">AGE AND DIVERSITY DATA
+          <span class="report-number">#326</span></a></li>
+      <li><a href="#">LEAVE ADMINISTRATIONA
+          <span class="report-number">#326</span></a></li>
+  </ul>
+</div>
+<div class="main">
+  <div class="main-wrapper container-fluid">
+
+      <div class="row">
+          <div class="col-lg-4">
+              <p class="label">Report Category Name <br>
+                  <input type="text" class="form-control form-control-sm" id="reportCategoryName"
+                   required
+                  [(ngModel)]=headobj.reportCategoryName name="reportCategoryName" #reportCategoryName="ngModel"> 
+              </p>
+          </div>
+          <div class="col-lg-4">
+              <p class="label">Report Name <br>
+                  <input type="text" class="form-control form-control-sm" id="reportName"
+                  required
+                [(ngModel)]=headobj.reportName name="reportName" #reportName="ngModel">
+              </p>
+          </div>
+          <div class="col-lg-4">
+              <p class="label">Report Number<br>
+                  <input type="text" class="form-control form-control-sm" id="reportNumber"
+                  required
+                  [(ngModel)]=headobj.reportNumber name="reportNumber" #reportNumber="ngModel">
+              </p>
+          </div>
+      </div>
+
+      <div class="report-components">
+          <p class="fz-15 mb-2 collapse-trigger" data-toggle="collapse" href="#contentId" aria-expanded="false"
+             aria-controls="contentId">Report Components</p>
+
+          <div class="components collapse"  id="contentId">
+              <div class="owl-carousel component-carousel">
+                  <div class="col">
+                      <div class="component-title">
+                          Personal
+                      </div>
+                      <div class="component-fields">
+                          <ul>
+                              <li><input type="checkbox" id="c1"><label for="c1"> ALL</label></li>
+                              <li><input type="checkbox" id="c2"><label for="c2"> FIRST NAME</label></li>
+                              <li><input type="checkbox" id="c3"><label for="c3"> LAST NAME</label></li>
+                              <li><input type="checkbox" id="c4"><label for="c4"> EMAIL ID</label></li>
+                              <li><input type="checkbox" id="c5"><label for="c5"> MOBILE NUMBER</label></li>
+                              <li><input type="checkbox" id="c6"><label for="c6"> DATE OF BIRTH</label></li>
+                              <li><input type="checkbox" id="c7"><label for="c7"> GENDER</label></li>
+                              <li><input type="checkbox" id="c8"><label for="c8"> PHONE NUMBER</label></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="component-title">
+                          Basic
+                      </div>
+                      <div class="component-fields">
+                          <ul>
+                              <li><input type="checkbox" id="c1"><label for="c1"> ALL</label></li>
+                              <li><input type="checkbox" id="c2"><label for="c2"> FIRST NAME</label></li>
+                              <li><input type="checkbox" id="c3"><label for="c3"> LAST NAME</label></li>
+                              <li><input type="checkbox" id="c4"><label for="c4"> EMAIL ID</label></li>
+                              <li><input type="checkbox" id="c5"><label for="c5"> MOBILE NUMBER</label></li>
+                              <li><input type="checkbox" id="c6"><label for="c6"> DATE OF BIRTH</label></li>
+                              <li><input type="checkbox" id="c7"><label for="c7"> GENDER</label></li>
+                              <li><input type="checkbox" id="c8"><label for="c8"> PHONE NUMBER</label></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="component-title">
+                          Address
+                      </div>
+                      <div class="component-fields">
+                          <ul>
+                              <li><input type="checkbox" id="c1"><label for="c1"> ALL</label></li>
+                              <li><input type="checkbox" id="c2"><label for="c2"> FIRST NAME</label></li>
+                              <li><input type="checkbox" id="c3"><label for="c3"> LAST NAME</label></li>
+                              <li><input type="checkbox" id="c4"><label for="c4"> EMAIL ID</label></li>
+                              <li><input type="checkbox" id="c5"><label for="c5"> MOBILE NUMBER</label></li>
+                              <li><input type="checkbox" id="c6"><label for="c6"> DATE OF BIRTH</label></li>
+                              <li><input type="checkbox" id="c7"><label for="c7"> GENDER</label></li>
+                              <li><input type="checkbox" id="c8"><label for="c8"> PHONE NUMBER</label></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="component-title">
+                          Earning
+                      </div>
+                      <div class="component-fields">
+                          <ul>
+                              <li><input type="checkbox" id="c1"><label for="c1"> ALL</label></li>
+                              <li><input type="checkbox" id="c2"><label for="c2"> FIRST NAME</label></li>
+                              <li><input type="checkbox" id="c3"><label for="c3"> LAST NAME</label></li>
+                              <li><input type="checkbox" id="c4"><label for="c4"> EMAIL ID</label></li>
+                              <li><input type="checkbox" id="c5"><label for="c5"> MOBILE NUMBER</label></li>
+                              <li><input type="checkbox" id="c6"><label for="c6"> DATE OF BIRTH</label></li>
+                              <li><input type="checkbox" id="c7"><label for="c7"> GENDER</label></li>
+                              <li><input type="checkbox" id="c8"><label for="c8"> PHONE NUMBER</label></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="component-title">
+                          Bank
+                      </div>
+                      <div class="component-fields">
+                          <ul>
+                              <li><input type="checkbox" id="c1"><label for="c1"> ALL</label></li>
+                              <li><input type="checkbox" id="c2"><label for="c2"> FIRST NAME</label></li>
+                              <li><input type="checkbox" id="c3"><label for="c3"> LAST NAME</label></li>
+                              <li><input type="checkbox" id="c4"><label for="c4"> EMAIL ID</label></li>
+                              <li><input type="checkbox" id="c5"><label for="c5"> MOBILE NUMBER</label></li>
+                              <li><input type="checkbox" id="c6"><label for="c6"> DATE OF BIRTH</label></li>
+                              <li><input type="checkbox" id="c7"><label for="c7"> GENDER</label></li>
+                              <li><input type="checkbox" id="c8"><label for="c8"> PHONE NUMBER</label></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="report-type pb-3 text-uppercase">
+          <div class="inline-row">
+              <div class="">
+                  Report Type
+              </div>
+
+              <div class="">
+                  <label class="label-container">
+                      <input type="checkbox" name="detailed-breakup" checked>
+                      Detailed Breakup
+                      <span class="checkmark"></span>
+                  </label>
+
+              </div>
+              <div class="">
+                  <label class="label-container">
+                      <input type="checkbox" >
+                      <input type="checkbox" name="weekly-breakup" checked>  Weekly Breakup
+                      <span class="checkmark"></span>
+                  </label>
+              </div>
+              <div class="">
+                  <input type="date" name="weekly-breakup" class="inline form-control form-control-sm "> to
+                  <input type="date" name="weekly-breakup" class="inline form-control form-control-sm ">
+              </div>
+
+          </div>
+      </div>
+
+      <div class="pb-3">
+          <div class="row">
+              <div class="col">
+                  <select name="" class="form-control form-control-sm" id="">
+                      <option value="">Key Number 1</option>
+                  </select>
+              </div>
+              <div class="col">
+                  <select name="" class="form-control form-control-sm" id="">
+                      <option value="">Key Number 1</option>
+                  </select>
+              </div>
+              <div class="col">
+                  <select name="" class="form-control form-control-sm" id="">
+                      <option value="">Key Number 1</option>
+                  </select>
+              </div>
+              <div class="col">
+                  <select name="" class="form-control form-control-sm" id="">
+                      <option value="">Key Number 1</option>
+                  </select>
+              </div>
+              <div class="col">
+                  <select name="" class="form-control form-control-sm" id="">
+                      <option value="">Key Number 1</option>
+                  </select>
+              </div>
+              <div class="col">
+                  <select name="" class="form-control form-control-sm" id="">
+                      <option value="">Key Number 1</option>
+                  </select>
+              </div>
+          </div>
+      </div>
+      <p class="strong">REPORT FORMAT</p>
+
+      <!-- <table style="width: 100%;" class="table datatable table-hover">
+          <thead>
+          <tr>
+              <td style="">No.</td>
+              <td style="">Module Name</td>
+              <td style="">Table Sorting </td>
+              <td style="">String Limit </td>
+              <td style="">Filter </td>
+              <td style="">Column Sequence </td>
+
+          </tr>
+          </thead>
+          <tbody>
+
+          <tr>
+              <td>Personal</td>
+              <td>First Name</td>
+              <td><label class="label-container"><input type="checkbox"> <span class="checkmark"></span></label></td>
+              <td><input type="text" class="form-control form-control-sm"></td>
+              <td>
+                  <label class="label-container"><input type="checkbox"> <span class="checkmark"></span></label></td>
+              <td><input type="text" class="form-control-sm form-control"></td>
+          </tr>
+
+
+          <tr>
+              <td>Personal</td>
+              <td>First Name</td>
+              <td><label class="label-container"><input type="checkbox"> <span class="checkmark"></span></label></td>
+              <td><input type="text" class="form-control form-control-sm"></td>
+              <td><label class="label-container"><input type="checkbox"> <span class="checkmark"></span></label></td>
+              <td><input type="text" class="form-control-sm form-control"></td>
+          </tr>
+
+
+          <tr>
+              <td>Personal</td>
+              <td>First Name</td>
+              <td><label class="label-container"><input type="checkbox"> <span class="checkmark"></span></label></td>
+              <td><input type="text" class="form-control form-control-sm"></td>
+              <td><label class="label-container"><input type="checkbox"> <span class="checkmark"></span></label></td>
+              <td><input type="text" class="form-control-sm form-control"></td>
+          </tr>
+
+
+          <tr>
+              <td>Personal</td>
+              <td>First Name</td>
+              <td><label class="label-container"><input type="checkbox"> <span class="checkmark"></span></label></td>
+              <td><input type="text" class="form-control form-control-sm"></td>
+              <td><label class="label-container"><input type="checkbox"> <span class="checkmark"></span></label></td>
+              <td><input type="text" class="form-control-sm form-control"></td>
+          </tr>
+
+
+          <tr>
+              <td>Personal</td>
+              <td>First Names</td>
+              <td><label class="label-container"><input type="checkbox"> <span class="checkmark"></span></label></td>
+              <td><input type="text" class="form-control form-control-sm"></td>
+              <td><label class="label-container"><input type="checkbox"> <span class="checkmark"></span></label></td>
+              <td><input type="text" class="form-control-sm form-control"></td>
+          </tr>
+          </tbody>
+      </table> -->
+      <table style="width: 100%;" class="table datatable table-hover">
+        <thead>
+            <tr>
+                <th style="">No</th>
+                <th style="">Report Category Name</th>
+                <th style="">Report Name</th>
+                <th style="">Report Number</th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr *ngFor="let arrayVal of arrayValue; let i=index;" >
+                        <th style="">{{i+1}}</th>
+                        <th style="">{{arrayVal.reportCategoryName}} </th>
+                        <th style="">{{arrayVal.reportName}}</th>
+                        <th style="">{{arrayVal.reportNumber}}</th>
+                    </tr>
+        </tbody>
+          </table>
+      <!-- DivTable.com -->
+      <div class="text-center mt-3">
+          <button type="submit" class="btn btn-secondary">Preview</button>&nbsp;&nbsp;
+          <button type="submit" class="btn btn-outline-secondary" (click)="createReport()">Submit</button>
+      </div>
+  </div>
+
+  <div class="footer">
+      <div class="text-right">
+          <img src="images/ts-logo.png" alt="" width="100">
+      </div>
+  </div> 
+</div>
